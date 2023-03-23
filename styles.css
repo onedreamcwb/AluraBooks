@@ -1,0 +1,14 @@
+/*VARIÁVEIS*/
+@import url("styles/header.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --cor-branco: #ffffff;
+    --cor-secundaria: #EB9B00;
+    --cor-azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    
+}
