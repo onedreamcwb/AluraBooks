@@ -4,13 +4,14 @@ Rápida descrição do objetivo de fazer esse projeto
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
+| :sparkles: Gustavo Araujo        | **AluraBooks**
+| :label: Tecnologias | html, css, (tecnologias utilizadas)
+| :rocket: URL         | https://cursos.alura.com.br/course/html-css-responsividade-mobile-first
+| :fire: Desafio     | https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?t=TR9UzwtRHotQVdpq-6
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](https://media.discordapp.net/attachments/1081630236543811698/1088648910370783332/Pagina_incial.png?width=114&height=473) 
+#vitrinedev
 
 ## Detalhes do projeto
 
