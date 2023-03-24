@@ -46,6 +46,7 @@
 
 .lista-menu__titulo {
     color: var(--cor-secundaria);
+    font-weight: 700;
 }
 
 .lista-menu__link {
@@ -55,6 +56,10 @@
     background-clip: text; /*prende a cor do background no texto*/
     text-transform: uppercase;
     
+}
+
+.container__botao {
+    display: none;
 }
 
 
