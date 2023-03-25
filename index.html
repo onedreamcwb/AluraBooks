@@ -52,6 +52,7 @@
             <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
             <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
         </section>
+        <!--INICIO DA 1º SECTION-->
         <section class="carrosel">
             <h2 class="carrosel__titulo">Novos Lançamentos</h2>
             <!-- recipiente principal deslizante -->
@@ -101,17 +102,73 @@
                 <!--2º COLUNA-->
                 <a href="#" class="botões__ancora">Saiba mais</a>
             </div>
+         </div> 
+        </section> 
+        <!-- FIM DA PRIMEIRA SECTION-->
+
+        <!--iNICIO 2º SECTION-->
+        <section class="carrosel">
+            <h2 class="carrosel__titulo">MAIS VENDIDOS</h2>
+            <!-- recipiente principal deslizante -->
+        <div class="swiper">
+            <!-- Se precisarmos de paginação -->
+            <div class="swiper-pagination"></div>
+            <!-- Invólucro necessário adicional -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide"><img src="./img/Gestão.svg" 
+                    alt="Livro sobre Gestão 1"></div>
+                <div class="swiper-slide"><img src="./img/Gestão2.svg" 
+                    alt="Livro sobre Gestão 2"></div>
+                <div class="swiper-slide"><img src="./img/Construct2.svg" 
+                    alt="Livro sobre Construct 2"></div>
+                <div class="swiper-slide"><img src="./img/Javascript.svg" 
+                    alt="Livro guia do JavaScript"></div>
+                <div class="swiper-slide"><img src="./img/MEAN.svg" 
+                    alt="Livro sobre MEAN"></div>
+                <div class="swiper-slide"><img src="./img/MetricasAgeis.svg" 
+                    alt="Livro sobre métricas ágeis"></div>
+            </div>       
+            <!-- Se precisarmos de botões de navegação-->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+         </div> <!--FIM DO SWIPER-->
+
+         <div class="card">
+            <!--1º LINHA-->
+            <div class="card__descrição">
+                <!--1º COLUNA-->
+                <div class="descrição">
+                    <img src="./img/Estrelinhas.svg">
+                    <h3 class="descrição__titulo">Autora do Mês</h3>
+                    <h2 class="descrição__titulo-livro">Juliane Agarikov</h2>
+                    <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.></p>
+                </div>
+                <!--2º COLUNA-->
+                <img src="./img/escritora.png" alt="descrição__imagem">
+            </div>
+            <!--2º LINHA-->
+            <div class="card__botões">
+                <!--1º COLUNA-->
+                <ul class="botões">
+                    <li class="botões__item"><img src="./img/favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="botões__item"><img src="./img/Compras.svg" alt="Minhas compras"></li>
+                </ul>
+                <!--2º COLUNA-->
+                <a href="#" class="botões__ancora">Saiba mais</a>
+            </div>
          </div>
 
         </section>
+        
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
         <script>
             const swiper = new Swiper('.swiper', {
                 spaceBetween: 10,
                 slidesPerView: 3,
                 pagination: {
-                    el: '.swiper-pagination',
-                    type: 'bullets',
+                el: '.swiper-pagination',
+                type: 'bullets',
   },
                 autoplay: {
                 delay: 3000,
