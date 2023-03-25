@@ -87,4 +87,8 @@ O Flexbox é amplamente suportado pelos navegadores modernos e oferece recursos 
  
  ## Inserção do Carrosel + Card 👌
   ![](https://media.discordapp.net/attachments/1081630236543811698/1089196361469149194/Frame_159.png?width=418&height=640)
+  
+https://user-images.githubusercontent.com/100084440/227746492-a55aec57-0496-41ce-a39d-8a47579e0271.mp4
+
+
 Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
