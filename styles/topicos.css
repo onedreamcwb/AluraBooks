@@ -1,0 +1,27 @@
+.tópicos {
+    background: var(--cor-azul-degrade);
+    text-align: center;
+    padding: 1em 0;
+}
+.tópicos__titulo {
+    font-weight: 300;
+    color: var(--cor-branco);
+    margin-bottom: 2em;
+    margin-top: 1.5em;
+}
+.tópicos__lista {
+    display: flex;
+    flex-wrap: wrap; /*quando chega ao final ele quebra a linha*/
+    justify-content: center;
+}
+.tópicos__item{
+    margin: 2em 0.5em ;
+}
+.tópicos__link {
+    color: var(--cor-branco);
+    padding: 1em;
+    background-color: var(--laranja);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
