@@ -80,12 +80,26 @@
          </div> <!--FIM DO SWIPER-->
 
          <div class="card">
-            <div class="card__descricao">
-                <div class="descricao">
-                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
-                    <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            <!--1º LINHA-->
+            <div class="card__descrição">
+                <!--1º COLUNA-->
+                <div class="descrição">
+                    <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
+                    <p class="descrição__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
                 </div>
+                <!--2º COLUNA-->
+                <img src="./img/angular.svg" alt="descrição__imagem">
+            </div>
+            <!--2º LINHA-->
+            <div class="card__botões">
+                <!--1º COLUNA-->
+                <ul class="botões">
+                    <li class="botões__item"><img src="./img/favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="botões__item"><img src="./img/Compras.svg" alt="Minhas compras"></li>
+                </ul>
+                <!--2º COLUNA-->
+                <a href="#" class="botões__ancora">Saiba mais</a>
             </div>
          </div>
 
@@ -100,7 +114,7 @@
                     type: 'bullets',
   },
                 autoplay: {
-                delay: 5000,
+                delay: 3000,
  },
             });
         </script>
