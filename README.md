@@ -85,4 +85,6 @@ A principal vantagem do Flexbox é sua capacidade de lidar com layouts complexos
 
 O Flexbox é amplamente suportado pelos navegadores modernos e oferece recursos avançados, como flex-wrap (quebra de linha), justify-content (justificação do conteúdo) e align-items (alinhamento dos itens). Ele é uma ferramenta poderosa para criar layouts dinâmicos e eficientes em CSS.</p>
  
+ ## Inserção do Carrosel + Card 👌
+  ![](https://media.discordapp.net/attachments/1081630236543811698/1089196361469149194/Frame_159.png?width=418&height=640)
 Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
