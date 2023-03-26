@@ -41,3 +41,10 @@ hr {
     }
    
 }
+
+@media screen and (min-width: 1724px) {
+    .lista-rodapé {
+        border-left: 1px solid var(--rodape-link);
+        padding: 1em;
+    }
+}

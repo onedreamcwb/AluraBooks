@@ -35,3 +35,17 @@
         font-size: 24px;
     }
 }
+
+@media screen and (min-width: 1724px) {
+    .tópicos {
+        padding: 3em 20vw;
+    }
+    .carrosel__titulo {
+        font-size:32px;
+        padding: 1.25em 0;
+    }
+    .tópicos__titulo {
+        font-family: var(--fonte-principal);
+        font-size: 32px;
+    }
+}
