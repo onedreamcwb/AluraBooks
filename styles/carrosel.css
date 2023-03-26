@@ -9,11 +9,6 @@
     padding: 0.5em 0 0.5em 0;
 }
 
-.swiper-slide {
-    width: 100%;
-       
-}
-
 .swiper-button-prev, .swiper-button-next {
     display: none;
 }
@@ -22,6 +17,47 @@
     position: initial;
     margin: 0.5em 0; /*cima baixo, esquerda,direita*/
 }
+
+/* Estilos personalizados para o carrossel Swiper */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .swiper-slide {
+    width: 100%; 
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .swiper-slide:hover {
+    transform: scale(1.1);
+  }
+  
+  .swiper-pagination {
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: var(--cor-branco);
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+  
 
 /*INICIO DO CARD*/
 
