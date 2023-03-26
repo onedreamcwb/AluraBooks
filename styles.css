@@ -17,6 +17,8 @@
     --fonte-principal: "Poppins";
     --fonte-secundaria: "Josefin Sans";
     --preto: #000000;
+    --rodape: #858585;
+    --rodape-link: #474646;
 }
 
 body {
