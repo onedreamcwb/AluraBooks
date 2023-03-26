@@ -10,7 +10,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | :fire: Desafio     | https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?t=TR9UzwtRHotQVdpq-6
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://media.discordapp.net/attachments/1081630236543811698/1088648910370783332/Pagina_incial.png?width=114&height=473) 
+![](https://media.discordapp.net/attachments/1081630236543811698/1089319664598909029/Mobile_Responsivo.png)
 #vitrinedev
 
 ## Detalhes do projeto
@@ -84,7 +84,5 @@ Com o Flexbox, é possível controlar a direção, o alinhamento, a ordem e o ta
 A principal vantagem do Flexbox é sua capacidade de lidar com layouts complexos com menos código CSS. Ele permite que os desenvolvedores criem layouts fluidos e responsivos sem a necessidade de recorrer a truques complexos de posicionamento.
 
 O Flexbox é amplamente suportado pelos navegadores modernos e oferece recursos avançados, como flex-wrap (quebra de linha), justify-content (justificação do conteúdo) e align-items (alinhamento dos itens). Ele é uma ferramenta poderosa para criar layouts dinâmicos e eficientes em CSS.</p>
- 
- ## Inserção do Carrosel + Card 👌
-  ![](https://media.discordapp.net/attachments/1081630236543811698/1089196361469149194/Frame_159.png?width=418&height=640)
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+  
+https://user-images.githubusercontent.com/100084440/227746492-a55aec57-0496-41ce-a39d-8a47579e0271.mp4
