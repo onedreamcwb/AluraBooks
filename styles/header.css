@@ -14,52 +14,98 @@
     align-items: center;
     position: relative; /*relative= Libera as posição right,top,bottom,left*/
 }
-
 .container {
     display: flex;
     align-items: center;
 }
-
 .container__imagem {
     padding: 1em;
 }
-
 .lista-menu {
     display: none; /*Faz os itens desaparecer*/
     position: absolute; /*Permite que movimente o seu elemento de acordo com outro que veio antes o PAI*/
     top: 100%;
     width: 60vw;
-    
 }
-
-
 .container__botao:checked~.lista-menu { /*pseudo class= checked: detecta se tá preenchido aquele checkbox. O (~) é um combinador de CSS vai procurar outro elemento que vem em seguida que tenha a classe após o (~)*/
     display: block;
-
 }
-
 .lista-menu__titulo, .lista-menu__item {
     padding: 1em;
     background-color: var(--cor-branco);
-
 }
-
 .lista-menu__titulo {
     color: var(--laranja);
     font-weight: 700;
 }
-
 .lista-menu__link {
     background: var(--cor-azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text; /*prende a cor do background no texto*/
     text-transform: uppercase;
-    
 }
-
 .container__botao {
     display: none;
 }
+.container__titulo {
+    display: none;
+}
+.opções {
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    .container__titulo, .container__titulo--negrito {
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+    }
+
+    .container__titulo {
+        font-weight: 400;
+        display: block;
+
+    }
+
+    .container__titulo--negrito {
+        font-weight: 700;
+        
+    }
+
+    .opções {
+        display: flex;
+    }
+
+    .opções__item {
+        padding: 1em;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .opções__link {
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__imagem-transparente {
+        display: none;
+    }
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+
+    }
+
+    .opções__botão:checked ~ .lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opções__botão {
+        display: none;
+        cursor: pointer;
+    }
+}
+
+
 
 
