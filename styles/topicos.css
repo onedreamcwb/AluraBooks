@@ -34,12 +34,20 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .tópicos {
+        padding-bottom: 2em;
+        margin-bottom: 3em;
+    }
+    
     .tópicos__titulo {
         font-size: 24px;
     }
 
     .tópicos__link {
-        font-size: 24px;
+        font-size: 20px;
+    }
+    .tópicos__link:hover {
+        color: var(--cor-secundaria);
     }
    
 }
