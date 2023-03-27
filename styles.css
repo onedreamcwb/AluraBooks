@@ -19,6 +19,10 @@
     
     --fonte-principal: "Poppins";
     --fonte-secundaria: "Josefin Sans";
+
+    --swiper-pagination-color: var(--cor-terciaria);
+   
+    
 }
 
 body {

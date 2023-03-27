@@ -1,4 +1,6 @@
 /*CARROSEL */
+
+
 .carrosel__titulo {
     color: var(--cor-terciaria);
     background-color: var(--cor-secundaria);
@@ -35,19 +37,17 @@
 }
   
 .swiper-pagination {
+    padding: 1em 1em;
     z-index: 20;
     bottom: 20px;
     left: 20%;
-    transform: translateX(-50%);
     width: 100%;
 }
 .swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
-    background: var(--cor-terciaria);
-    opacity: 0.5;
-    cursor: pointer;
+    
 }
 
 /*INICIO DO CARD*/
@@ -152,7 +152,6 @@
     .card {
         width: 60%;
         margin-left: 3em;
-        margin-right: 3em;
     }
     .descrição {
         margin-right: 1em;
@@ -163,5 +162,4 @@
     .descrição__texto {
         font-size: 16px;
     }
-   
 }

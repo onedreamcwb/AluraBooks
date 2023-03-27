@@ -60,7 +60,6 @@ hr {
         font-weight: 700;
         font-size: 37px;
         justify-content: start;
-
     }
     .rodapé-imagem {
         width: 25%;
@@ -73,6 +72,5 @@ hr {
     }
     .rodapé {
         padding: 3em 0;
-    }
-    
+    }   
 }
