@@ -61,4 +61,14 @@
     .banner {
         padding: 5em 0;
     }
+    .opções__item, .opções__link, .container__texto {
+        font-size: 24px;
+    }
+    .container__texto {
+        color: var(--cor-texto);
+    }
+    .lista-menu__link:hover, .opções__link:hover {
+        color: var(--cor-terciaria);
+    }
+    
 }
