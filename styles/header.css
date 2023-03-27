@@ -69,10 +69,16 @@
     .opções {
         display: flex;
     }
+    .lista-menu__link{
+        font-size: 17px;
+        font-weight: 500;
+    }
     .opções__item {
         padding: 1em;
         text-transform: uppercase;
         cursor: pointer;
+        font-size: 20px;
+        font-weight: 700;
     }
     .opções__link {
         text-decoration: none;
@@ -88,7 +94,22 @@
     .opções__botão {
         cursor: pointer;
     }
+    .opções__botão:checked~.opções__rotulo>.opções__item {
+        background: var(--cor-azul-degrade);
+        color: var(--cor-branco);
+    }
+    .opções__item {
+        padding: 2em 1em;
+    }
+    .lista-menu__item:hover {
+        background: var(--cor-azul-degrade);
+    }
+    .lista-menu__item:hover > .lista-menu__link {
+        -webkit-text-fill-color: var(--cor-branco);
+        text-decoration: none;
+    }
 }
+
 
 @media screen and (min-width: 1728px) {
     .container__link {
