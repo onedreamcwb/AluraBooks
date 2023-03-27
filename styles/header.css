@@ -133,10 +133,14 @@
         color: var(--preto);
     }
     .cabecalho {
+        margin: 0;
         padding: 0 2em;
     }
     .opções {
         margin-right: auto;
+    }
+    .lista-menu__link{
+        font-size: 18px;
     }
     .container__texto {
         display: block;

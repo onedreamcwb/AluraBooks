@@ -142,6 +142,7 @@
         display: flex;
         width: 100%;
         align-items: center;
+        padding: 1em;
     }
     .swiper-pagination {
         margin: 1em 0em;
@@ -151,7 +152,8 @@
     }
     .card {
         width: 60%;
-        margin-left: 3em;
+        margin: 2em 2em;
+        margin-top: 5em;
     }
     .descrição {
         margin-right: 1em;
@@ -162,4 +164,5 @@
     .descrição__texto {
         font-size: 16px;
     }
+    
 }
