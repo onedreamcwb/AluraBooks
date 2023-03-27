@@ -74,20 +74,22 @@
     border-radius: 10px;
     margin: 1.5em;
     padding: 1em;
+
 }
 .descrição__titulo {
     color: var(--cor-terciaria);
     font-weight: 700;
+    font-size: 32px;
 }
 .descrição__titulo-livro {
     font-weight: 700;
     color: var(--azul-detalhe);
-    font-size: 18px;
+    font-size: 28px;
     margin: 0.5em 0;
 }
 .descrição__texto {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 20px;
     color: var(--cor-texto);
     font-family: var(--fonte-principal);
 }
