@@ -21,7 +21,8 @@
     --fonte-secundaria: "Josefin Sans";
 
     --swiper-pagination-color: var(--cor-terciaria);
-   
+    --swiper-pagination-bullet-inactive-color: #ffffff;
+    --swiper-pagination-bullet-inactive-opacity: 0.2;
     
 }
 
@@ -32,3 +33,5 @@ body {
     font-weight: 400;
     
 }
+
+

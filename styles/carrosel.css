@@ -140,7 +140,6 @@
 @media screen and (min-width: 1728px) {
     .carrosel__container {
         display: flex;
-        width: 100%;
         align-items: center;
         padding: 1em;
     }
@@ -152,8 +151,8 @@
     }
     .card {
         width: 60%;
-        margin: 2em 2em;
-        margin-top: 5em;
+        margin: 5em 2em 2em 2em;
+        
     }
     .descrição {
         margin-right: 1em;
