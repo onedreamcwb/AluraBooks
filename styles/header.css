@@ -107,9 +107,6 @@
         display: block;
         width: auto;
     }
-    .opções__botão {
-        cursor: pointer;
-    }
     .opções__botão:checked~.opções__rotulo>.opções__item {
         background: var(--cor-secundaria);
         color: var(--cor-branco);
