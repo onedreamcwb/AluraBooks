@@ -1,20 +1,15 @@
 hr {
     margin: 0;
 }
-
 .rodapé {
     background-color: var(--cor-de-fundo);
     padding: 1em;
-    color: white;
+    color: var(--cor-texto);
     text-align: center;
 }
-.lista-rodapé {
+.lista-rodapé__titulo, .rodapé-imagem, .lista-rodapé {
     display: none;
 }
-.lista-rodapé__titulo, .rodapé-imagem {
-    display: none;
-}
-
 @media screen and (min-width: 1024px) {
     .rodapé__titulo {
         font-size: 24px;

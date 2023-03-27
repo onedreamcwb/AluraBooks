@@ -1,12 +1,11 @@
 .contato {
-    background-color: var(--cor-branco);
-    padding: 1.5em;
+    background-color: var(--cor-secundaria);
+    padding: 1.5em;   
 }
-
 .contato__titulo {
     font-weight: 500;
     font-size: 18px;
-    color: var(--laranja);
+    color: var(--cor-terciaria);
 }
 .contato__texto {
     font-weight: 300;
@@ -16,10 +15,11 @@
 .contato__email {
     background: transparent;
     padding: 1em;
-    border: 2px solid var(--laranja);
+    border: 2px solid var(--cor-terciaria);
     border-radius: 24px;
     width: 90%;
-    color: var(--laranja);
+    color: var(--cor-terciaria);
+    box-shadow: 0px 4px 4px var(--cor-primaria);
 }
 .contato__email::placeholder {
     font-family: var(--fonte-principal); /*no placeholder ele não va tão fundo*/
@@ -28,6 +28,8 @@
     padding-left: 2em;
     background-position: center left;
 }
+
+/*Layout Dekstop*/
 
 @media screen and (min-width: 1024px) {
     .contato {

@@ -10,10 +10,10 @@
     background-image: url(../img/Menu\ Aberto.svg);
 }
 .container__botao:checked~.container__rotulo {
-    background: var(--cor-azul-degrade);
+    background: var(--cor-terciaria);
 }
 .cabecalho {
-    background-color: var(--cor-branco);
+    background-color: var(--cor-secundaria);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,23 +27,23 @@
     padding: 1em;
 }
 .container__imagem:hover {
-    color: var(--cor-texto);
+    color: var(--cor-terciaria);
 }
 .lista-menu {
-    display: none; /*Faz os itens desaparecer*/
-    position: absolute; /*Permite que movimente o seu elemento de acordo com outro que veio antes o PAI*/
+    display: none; 
+    position: absolute;
     top: 100%;
     width: 60vw;
 }
-.container__botao:checked~.lista-menu { /*pseudo class= checked: detecta se tá preenchido aquele checkbox. O (~) é um combinador de CSS vai procurar outro elemento que vem em seguida que tenha a classe após o (~)*/
+.container__botao:checked~.lista-menu {
     display: block;
 }
 .lista-menu__titulo, .lista-menu__item {
     padding: 1em;
-    background-color: var(--cor-branco);
+    background-color: var(--cor-secundaria);
 }
 .lista-menu__titulo {
-    color: var(--laranja);
+    color: var(--cor-terciaria);
     font-weight: 700;
 }
 .lista-menu__link {
@@ -52,24 +52,24 @@
     text-decoration: none;
 }
 .lista-menu__link:hover {
-    color: var(--laranja);
-  }
+    color: var(--cor-terciaria);
+}
   .container__link:hover .container__imagem {
-    opacity: 0.7;
-  }
-  
+    opacity: 0.2;
+}
   .container__link:hover .container__texto {
     color: #f28b30;
-  }
-  
+}
 .container__botao, .container__titulo, .opções, .container__texto {
     display: none;
 }
 
+/*DEKSTOP*/
 @media screen and (min-width: 1024px) {
     .container__titulo, .container__titulo--negrito {
         font-family: var(--fonte-secundaria);
         font-size: 30px;
+        color: var(--cor-texto);
     }
     .container__titulo {
         font-weight: 400;
@@ -92,10 +92,14 @@
         font-size: 20px;
         font-weight: 700;
     }
+    .opções__item:hover,.opções__link:hover {
+        color: var(--cor-terciaria);
+    }
     .opções__link {
         text-decoration: none;
-        color: var(--preto);
+        color: var(--cor-texto);
     }
+   
     .container__imagem-transparente, .cabecalho__menu-hamburguer, .opções__botão {
         display: none;
     }
@@ -107,14 +111,15 @@
         cursor: pointer;
     }
     .opções__botão:checked~.opções__rotulo>.opções__item {
-        background: var(--cor-azul-degrade);
+        background: var(--cor-secundaria);
         color: var(--cor-branco);
     }
     .opções__item {
         padding: 2em 1em;
+        color: var(--cor-texto);
     }
     .lista-menu__item:hover {
-        background: var(--cor-azul-degrade);
+        background: var(--cor-secundaria);
     }
     .lista-menu__item:hover > .lista-menu__link {
         -webkit-text-fill-color: var(--cor-branco);
@@ -122,7 +127,7 @@
     }
 }
 
-
+/*TABLET*/
 @media screen and (min-width: 1728px) {
     .container__link {
         display: flex;

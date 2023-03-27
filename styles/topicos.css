@@ -1,15 +1,18 @@
 .tópicos {
-    background: var(--cor-azul-degrade);
+    background: var(--cor-secundaria);
     text-align: center;
-    padding: 1em 0;
+    margin: 1em auto;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px var(--cor-terciaria);
 }
 .tópicos__titulo {
     font-weight: 700;
-    color: var(--cor-branco);
-    margin-bottom: 2em;
-    margin-top: 1.5em;
-    color: var(--laranja);
+    color: var(--cor-terciaria);
+    margin-bottom: 0.5em;
+    margin-top: 2em;
     font-size: 18px;
+    padding: 1em;
 }
 .tópicos__lista {
     display: flex;
@@ -21,10 +24,10 @@
 }
 .tópicos__link {
     color: var(--cor-texto);
-    border: 2px solid var(--cor-branco);
     border-radius: 10px;
+    box-shadow: 0px 4px 4px var(--cor-primaria);
     padding: 1em;
-    background-color: var(--laranja);
+    background-color: var(--cor-terciaria);
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;

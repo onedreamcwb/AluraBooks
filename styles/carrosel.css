@@ -1,7 +1,7 @@
 /*CARROSEL */
 .carrosel__titulo {
-    color: var(--laranja);
-    background-color: var(--cor-branco);
+    color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
@@ -25,34 +25,30 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-  }
+}
   
   .swiper-slide { 
     transition: transform 0.3s ease-in-out;
-  }
-  
-  .swiper-slide:hover {
+}
+.swiper-slide:hover {
     transform: scale(1.1);
-  }
+}
   
-  .swiper-pagination {
+.swiper-pagination {
     z-index: 20;
     bottom: 20px;
     left: 20%;
     transform: translateX(-50%);
     width: 100%;
-  }
-  
-  .swiper-pagination-bullet {
+}
+.swiper-pagination-bullet {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: var(--laranja);
+    background: var(--cor-terciaria);
     opacity: 0.5;
     cursor: pointer;
-    
-  }
-  
+}
 
 /*INICIO DO CARD*/
 
@@ -72,54 +68,50 @@
 .botões {
     display: flex;
 }
-
 .card {
-    background: var(--cor-branco);
-    box-shadow: 0px 4px 4px var(--azul);
+    background: var(--cor-secundaria);
+    box-shadow: 0px 4px 4px var(--cor-terciaria);
     border-radius: 10px;
     margin: 1.5em;
     padding: 1em;
 }
-
 .descrição__titulo {
-    color: var(--laranja);
+    color: var(--cor-terciaria);
     font-weight: 700;
 }
-
 .descrição__titulo-livro {
     font-weight: 700;
-    color: var(--azul);
+    color: var(--azul-detalhe);
     font-size: 18px;
     margin: 0.5em 0;
 }
-
 .descrição__texto {
     font-weight: 400;
     font-size: 14px;
     color: var(--cor-texto);
     font-family: var(--fonte-principal);
 }
-
 .botões__item {
     margin: 0.5em;
     
 }
-
 .botões__ancora {
-    background-color: var(--laranja);
+    background-color: var(--cor-terciaria);
+    box-shadow: 0px 4px 4px var(--cor-primaria);
+    border-radius: 10px;
     padding: 1em 2.2em;
     text-decoration: none;
     color: var(--cor-texto);
     font-weight: 700;
 }
 .botões__item:hover img {
-    opacity: 0.7;
+    opacity: 0.1;
 }
 .botões__ancora:hover {
-    color: var(--cor-branco);
+    color: var(--cor-secundaria);
   }
   
-
+/*DEKSTOP*/
 @media screen and (min-width: 1024px) {
     .carrosel__titulo {
         font-size: 26px;
