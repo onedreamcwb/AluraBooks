@@ -70,6 +70,7 @@
 .card__botões {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .botões {
@@ -99,11 +100,13 @@
 .descrição__texto {
     font-weight: 400;
     font-size: 14px;
-    color: var(--cor-texto)
+    color: var(--cor-texto);
+    font-family: var(--fonte-secundaria);
 }
 
 .botões__item {
     margin: 0.5em;
+    
 }
 
 .botões__ancora {

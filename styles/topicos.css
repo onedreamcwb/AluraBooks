@@ -4,10 +4,12 @@
     padding: 1em 0;
 }
 .tópicos__titulo {
-    font-weight: 300;
+    font-weight: 700;
     color: var(--cor-branco);
     margin-bottom: 2em;
     margin-top: 1.5em;
+    color: var(--laranja);
+    font-size: 18px;
 }
 .tópicos__lista {
     display: flex;
@@ -18,7 +20,9 @@
     margin: 2em 0.5em ;
 }
 .tópicos__link {
-    color: var(--cor-branco);
+    color: var(--cor-texto);
+    border: 2px solid var(--cor-branco);
+    border-radius: 10px;
     padding: 1em;
     background-color: var(--laranja);
     text-decoration: none;

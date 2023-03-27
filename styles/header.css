@@ -26,6 +26,9 @@
 .container__imagem {
     padding: 1em;
 }
+.container__imagem:hover {
+    color: var(--cor-texto);
+}
 .lista-menu {
     display: none; /*Faz os itens desaparecer*/
     position: absolute; /*Permite que movimente o seu elemento de acordo com outro que veio antes o PAI*/
@@ -44,12 +47,21 @@
     font-weight: 700;
 }
 .lista-menu__link {
-    background: var(--cor-azul-degrade);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text; /*prende a cor do background no texto*/
+    color: var(--cor-texto);
     text-transform: uppercase;
+    text-decoration: none;
 }
+.lista-menu__link:hover {
+    color: var(--laranja);
+  }
+  .container__link:hover .container__imagem {
+    opacity: 0.7;
+  }
+  
+  .container__link:hover .container__texto {
+    color: #f28b30;
+  }
+  
 .container__botao, .container__titulo, .opções, .container__texto {
     display: none;
 }

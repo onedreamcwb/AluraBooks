@@ -3,8 +3,10 @@ hr {
 }
 
 .rodapé {
-    background-color: var(--cor-branco);
+    background-color: var(--cor-de-fundo);
     padding: 1em;
+    color: white;
+    text-align: center;
 }
 .lista-rodapé {
     display: none;

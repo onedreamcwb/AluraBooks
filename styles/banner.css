@@ -8,17 +8,19 @@
 .banner__titulo {
     font-size: 18px;
     font-weight: 700;
+    color: var(--laranja);
 }
 
 .banner__texto {
     font-weight: 500;
     margin: 1em 0;
+    color: var(--cor-texto);
 }
 
 .banner__pesquisa {
     background-color: transparent;
-    border: 1px solid var(--cor-branco);
-    color: var(--cor-branco);
+    border: 2px solid var(--laranja);
+    color: var(--laranja);
     border-radius: 24px;
     padding: 1em;
     width: 100%;
@@ -30,7 +32,7 @@
     font-weight: 400;
     font-size: 14px;
     text-align: center;
-    color: var(--cor-branco);
+    color: var(--rodape);
     background: url("../img/lupa.svg") no-repeat;
    
 }
