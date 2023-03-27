@@ -9,7 +9,9 @@ hr {
 .lista-rodapé {
     display: none;
 }
-
+.lista-rodapé__titulo, .rodapé-imagem {
+    display: none;
+}
 
 @media screen and (min-width: 1024px) {
     .rodapé__titulo {
