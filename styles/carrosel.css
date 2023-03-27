@@ -36,25 +36,21 @@
   }
   
   .swiper-pagination {
-    position: absolute;
-    z-index: 10;
+    z-index: 20;
     bottom: 20px;
-    left: 50%;
+    left: 20%;
     transform: translateX(-50%);
+    width: 100%;
   }
   
   .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
-    margin: 0 5px;
     border-radius: 50%;
-    background: var(--cor-branco);
+    background: var(--laranja);
     opacity: 0.5;
     cursor: pointer;
-  }
-  
-  .swiper-pagination-bullet-active {
-    opacity: 1;
+    
   }
   
 
@@ -101,7 +97,7 @@
     font-weight: 400;
     font-size: 14px;
     color: var(--cor-texto);
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-principal);
 }
 
 .botões__item {
@@ -113,9 +109,16 @@
     background-color: var(--laranja);
     padding: 1em 2.2em;
     text-decoration: none;
-    color: var(--cor-branco);
+    color: var(--cor-texto);
     font-weight: 700;
 }
+.botões__item:hover img {
+    opacity: 0.7;
+}
+.botões__ancora:hover {
+    color: var(--cor-branco);
+  }
+  
 
 @media screen and (min-width: 1024px) {
     .carrosel__titulo {
