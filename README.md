@@ -1,88 +1,58 @@
-# Nome do meu projeto
+# AluraBooks
 
-Rápida descrição do objetivo de fazer esse projeto
+<h1 align="center">
+    <img src="logo.png">
+<p>Coding For Life 🙅🏼‍♂️🙅🏼‍♂️</p>
+</h1>
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Gustavo Araujo        | **AluraBooks**
-| :label: Tecnologias | html, css, (tecnologias utilizadas)
-| :rocket: URL         | https://cursos.alura.com.br/course/html-css-responsividade-mobile-first
-| :fire: Desafio     | https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?t=TR9UzwtRHotQVdpq-6
+| :label: Tecnologias | HTML, CSS, SwiperJs
+| :rocket: URL         | <a href="https://cursos.alura.com.br/course/html-css-responsividade-mobile-first">Link do Curso</a>
+| :fire: Desafio     | <a href="https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?t=TR9UzwtRHotQVdpq-6">Link do Figma</a>
 
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://media.discordapp.net/attachments/1081630236543811698/1089319664598909029/Mobile_Responsivo.png)
-#vitrinedev
 
-## Detalhes do projeto
 
-## Módulo 1️⃣
-<p>Aplicação do reset.css. e metodologia mobile-first</p>
+https://user-images.githubusercontent.com/100084440/228129155-3816f20b-67b1-4765-9a9a-439555022e50.mp4
 
-## Módulo 2️⃣
 
-<ul>
-  <li>Baixar imagens no Figma;</li>
-  <li>Construir um header;</li>
-  <li>Transformar elementos em flex-containers e flex-items com FlexBox;</li>
-  <li>Associar arquivos CSS através do @import;</li>
-  <li>Desenvolver um menu hambúrguer interativo com HTML e CSS;</li>
-  <li>Position relative e absolute;</li>
-  <li>Importar e usar fontes do google fonts;</li>
-  <li>Criar sections;</li>
-  <li>Editar input e seu placeholder.</li>
- </ul>
- 
- ![](https://media.discordapp.net/attachments/1081630236543811698/1088650957530857572/image.png?width=959&height=189)
- 
-## Módulo 3️⃣
 
- <ul>
- <li>Aplicar plugins externos através de CDN;</li>
- <li><a href="https://github.com/onedreamcwb/dreambooks/edit/main/README.md#swiperjs-link-da-api">Utilizar o plugin SwiperJS;</a></li>
- <li><a href="https://github.com/onedreamcwb/dreambooks/edit/main/README.md#conte%C3%BAdo-extra-sobre-flexbox-link-do-conte%C3%BAdo">Conteúdo extra sobre FlexBox</a></li>
- <li>Reutilizar elementos e estilos;</li>
- <li>Criar listas;</li>
- <li>Editar input e seu placeholder.</li>
- 
- ## SwiperJs <a href="https://swiperjs.com/swiper-api#initialize-swiper">Link da API</a>
- 
- ![](https://media.discordapp.net/attachments/1081630236543811698/1089192913340219512/share-banner-3.png?width=1120&height=640)
- <h3>O que é o SwiperJs</h3>
- <p>SwiperJs é uma biblioteca de código aberto para criar carrosséis (sliders) responsivos e otimizados para dispositivos móveis. Ele suporta gestos de toque, arrastar e clicar para navegar pelos slides.
+## <h1 align="center">📕 About</h1> 
 
-Com o SwiperJs, é possível personalizar a aparência do carrossel, como tamanho, espaçamento, estilo de navegação, número de slides visíveis, efeitos de transição e muito mais.
+**Alurabook** is an educational project by Alura, a Brazilian platform for online technology and business courses. 
+<p>The project consists of developing a book management system, where users can register, search and evaluate books, in addition to interacting with other users through comments and evaluations.</p>
+ Alurabook is an ever-evolving project designed to provide a practical and relevant learning experience for developers and technology students.
 
-A biblioteca é compatível com várias plataformas, incluindo desktops, smartphones e tablets, e possui recursos úteis, como suporte a preloading de imagens, autoplay (reprodução automática) e lazy loading (carregamento tardio) de imagens.
+## <h1 align="center">🔨 Used tools</h1>
 
-O SwiperJs é fácil de usar e oferece uma API (Interface de Programação de Aplicativos) simples para interagir com a biblioteca. É uma escolha popular para desenvolvedores que desejam criar carrosséis de alta qualidade e personalizáveis para seus sites e aplicativos.</p>
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) 
+- [CSS3](https://developer.mozilla.org/en-US/docs/Glossary/CSS)
+- [SwipperJs](https://swiperjs.com/swiper-api#initialize-swiper)
 
-## Script usado
+## <h1 align="center">🌌 Extensões Visual Studio</h1>
 
-```html
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-        <script>
-            const swiper = new Swiper('.swiper', {
-                spaceBetween: 10,
-                slidesPerView: 3,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'bullets',
-  },
-                autoplay: {
-                delay: 3000,
- },
-            });
-        </script>
-```
+## [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+<p>The Bookmarks extension for Visual Studio Code is a tool that allows users to create and manage bookmarks for code snippets in their projects. With this extension, it's possible to quickly navigate between different parts of the code, making it easier to search for references or changes in a project. The interface is simple and intuitive, making it easy to manage bookmarks efficiently.</p>
 
-## Conteúdo extra sobre Flexbox <a href="https://cursos.alura.com.br/extra/alura-mais/css-flexbox-dicas-para-comecar-c301">Link do conteúdo</a>
-<h3> Resumo </h3>
-<p> Flexbox é um módulo do CSS que permite criar layouts flexíveis e responsivos em páginas web. Ele oferece uma maneira fácil e eficiente de organizar e distribuir elementos em um contêiner.
+## [ColorHighlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+<p>The CSS Var Complete extension for Visual Studio Code is a tool that helps developers handle CSS variables more efficiently. With it, it's possible to explore and autocomplete customized and standardized CSS variables, allowing developers to write code faster and more accurately. The extension offers suggestions based on the context in which the code is being written, which helps prevent errors and optimize the workflow.</p>
 
-Com o Flexbox, é possível controlar a direção, o alinhamento, a ordem e o tamanho dos elementos dentro de um contêiner. Ele também fornece recursos para ajustar automaticamente o tamanho dos elementos em relação ao espaço disponível, o que é especialmente útil para layouts responsivos em dispositivos móveis.
 
-A principal vantagem do Flexbox é sua capacidade de lidar com layouts complexos com menos código CSS. Ele permite que os desenvolvedores criem layouts fluidos e responsivos sem a necessidade de recorrer a truques complexos de posicionamento.
+## [CSS Var Complete](https://marketplace.visualstudio.com/items?itemName=phoenisx.cssvar)
+<p>The ColorHighLight extension for Visual Studio Code is a tool that helps developers work with colors more efficiently. With it, it's possible to highlight and visualize the colors used in the code, making it easier to identify and manipulate those colors. The extension supports various programming languages and highlights colors with different forms, allowing the user to choose the most suitable form for their preference and need.</p>
 
-O Flexbox é amplamente suportado pelos navegadores modernos e oferece recursos avançados, como flex-wrap (quebra de linha), justify-content (justificação do conteúdo) e align-items (alinhamento dos itens). Ele é uma ferramenta poderosa para criar layouts dinâmicos e eficientes em CSS.</p>
-  
-https://user-images.githubusercontent.com/100084440/227746492-a55aec57-0496-41ce-a39d-8a47579e0271.mp4
+## [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+<p>The GitLens extension for Visual Studio Code is a powerful tool that helps developers to understand and manage their code repositories more efficiently. With it, it's possible to visualize code changes, navigate through code history, and see who modified code, when, and why. GitLens also provides real-time insights into code metrics and statistics, allowing developers to gain deeper insights into their codebase and make better decisions.</p>
+
+## [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+<p>The IntelliCode extension for Visual Studio Code is an AI-powered tool that helps developers to write better code faster. With it, it's possible to get intelligent suggestions for code completion, code analysis, and code formatting based on thousands of real-world code examples. IntelliCode also provides personalized suggestions that are tailored to each developer's coding style and preferences, making it a powerful tool for improving productivity and code quality.</p>
+
+## [LiveShare](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+<p>The Live Share extension for Visual Studio Code is a collaboration tool that allows developers to work together in real-time on the same codebase, regardless of their location. With it, it's possible to share code, debug, and edit files simultaneously, making it easier to work with remote teams or collaborate with other developers. Live Share also provides features like audio chat, breakpoints, and code highlighting, making it a powerful tool for enhancing collaboration and productivity.</p>
+
+
+
+
+
+
