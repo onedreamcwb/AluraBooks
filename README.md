@@ -12,6 +12,12 @@
 | :rocket: URL         | <a href="https://cursos.alura.com.br/course/html-css-responsividade-mobile-first">Link do Curso</a>
 | :fire: Desafio     | <a href="https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?t=TR9UzwtRHotQVdpq-6">Link do Figma</a>
 
+
+
+https://user-images.githubusercontent.com/100084440/228129155-3816f20b-67b1-4765-9a9a-439555022e50.mp4
+
+
+
 ## <h1 align="center">📕 About</h1> 
 
 **Alurabook** is an educational project by Alura, a Brazilian platform for online technology and business courses. 
